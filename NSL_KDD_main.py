@@ -5,7 +5,7 @@ import numpy
 
 import pre_processing
 import torch
-import train_Adv_WGAN
+import train_DTGAN
 from torch.utils import data as Data
 from torch.utils.data import DataLoader
 import adv_attack
