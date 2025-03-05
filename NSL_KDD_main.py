@@ -43,8 +43,8 @@ if __name__ == "__main__":
     一、训练二分类器
     """
     print("一、训练二分类器")
-    # classifier = train_binary_classification()
-    classifier = torch.load(r"D:\tv2y\code\experiment2\Experiment_for_NSL_KDD\model\classifier\NSL_KDD_binary_classifier_1710399440.29307.pth") # GPU
+    classifier = train_binary_classification()
+    # classifier = torch.load(r"D:\tv2y\code\experiment2\Experiment_for_NSL_KDD\model\classifier\NSL_KDD_binary_classifier_1710399440.29307.pth")
 
     """
     二、生成对抗样本
