@@ -16,8 +16,6 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # 读取训练集、测试集数据
 train_raw_data = pd.read_csv(r"D:\tv2y\code\experiment2\Data\NSL_KDD_Dataset\trainset.csv", header=None, low_memory=False)
 test_raw_data = pd.read_csv(r"D:\tv2y\code\experiment2\Data\NSL_KDD_Dataset\testset.csv", header=None, low_memory=False)
-# train_raw_data = pd.read_csv(r"/home/baiwuxia/project/Adversarial Example/GAN Based Protetion/Data/NSL_KDD_Dataset/trainset.csv", header=None, low_memory=False)
-# test_raw_data = pd.read_csv(r"/home/baiwuxia/project/Adversarial Example/GAN Based Protetion/Data/NSL_KDD_Dataset/testset.csv", header=None, low_memory=False)
 
 feature_num = 41
 
